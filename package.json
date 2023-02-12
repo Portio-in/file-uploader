@@ -1,0 +1,28 @@
+{
+  "name": "giantsmeet-uploader",
+  "version": "1.0.0",
+  "description": "It will handle all the file uploading system related to Giantsmeet, will track all change",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GiantsMeet/Giantsmeet-Uploader.git"
+  },
+  "author": "Tanmoy Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiantsMeet/Giantsmeet-Uploader/issues"
+  },
+  "homepage": "https://github.com/GiantsMeet/Giantsmeet-Uploader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.935.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "mime-types": "^2.1.31",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "sharp": "^0.31.3"
+  }
+}
